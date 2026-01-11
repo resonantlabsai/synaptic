@@ -1,5 +1,9 @@
 # Synaptic (fresh) — AI Memory Store
 
+[![CI](https://github.com/resonantlabsai/synaptic/actions/workflows/ci.yml/badge.svg)](https://github.com/resonantlabsai/synaptic/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/resonantlabsai/synaptic/blob/main/LICENSE)
+
+
 Synaptic is a **local, cacheable memory system** designed to reduce context/token spend by turning valuable thoughts,
 decisions, constraints, and insights into **small “memory atoms”** that can be retrieved, strengthened, decayed,
 and pruned like synapses.
@@ -84,3 +88,5 @@ syn init
 syn add --type idea --scope colony --tags synaptic --content "Hello memory."
 syn brief "what did I just add?" --k 6 --l2 4 --meta 2
 ```
+
+Repository: https://github.com/resonantlabsai/synaptic.git

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it."
+title: "Synaptic"
+abstract: "Local-first memory substrate with synaptic dynamics (strengthen/decay/prune) and neighbor-based pattern surfacing (L2)."
+license: "MIT"
+authors:
+  - name: "Resonant Labs AI"
+repository-code: "https://github.com/resonantlabsai/synaptic"
+type: software
+keywords:
+  - memory
+  - local-first
+  - sqlite
+  - jsonl
+  - retrieval
+  - knowledge-graph
+  - agents

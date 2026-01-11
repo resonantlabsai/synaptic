@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Synaptic Atom",
+  "type": "object",
+  "required": [
+    "atom_id",
+    "ts",
+    "type",
+    "scope",
+    "content",
+    "summary",
+    "w",
+    "uses",
+    "last_used_ts",
+    "pinned"
+  ],
+  "properties": {
+    "atom_id": {
+      "type": "string"
+    },
+    "ts": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "content": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "source": {
+      "type": "object"
+    },
+    "w": {
+      "type": "number"
+    },
+    "uses": {
+      "type": "integer"
+    },
+    "last_used_ts": {
+      "type": "string"
+    },
+    "pinned": {
+      "type": "boolean"
+    },
+    "hash": {
+      "type": "string"
+    }
+  }
+}

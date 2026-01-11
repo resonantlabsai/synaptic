@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Synaptic Activation Event",
+  "type": "object",
+  "required": [
+    "act_id",
+    "ts",
+    "query",
+    "atom_ids",
+    "kind"
+  ],
+  "properties": {
+    "act_id": {
+      "type": "string"
+    },
+    "ts": {
+      "type": "string"
+    },
+    "query": {
+      "type": "string"
+    },
+    "atom_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "kind": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "object"
+    }
+  }
+}
